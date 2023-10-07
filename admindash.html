@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admindash.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h1 class="dashboard-heading">Food Palace Admin Dashboard</h1>
+    <div class="menu-button-container left">
+    <a href="menupage.html" class="menu-button" id="menuButton">☰ Menu</a>
+    </div>
+    
+    <div class="menu-button-container right">
+        <a href="" class="menu-button" id="menuButton">Edit Menu</a>
+    </div>
+    <div class="menu-button-container right">
+        
+        <a href="waiterreg.html" class="menu-button" id="registerwaiterButton">Register Waiter</a>
+    
+    </div>
+    </div>
+    
+    <div class="container">
+          
+        <div class="waiters-orders-container">
+            <div class="right-section">  
+              <div class="waiters">
+                 <h2>Logged-in Waiters</h2>
+                 <ul id="waiter-list">
+                   
+            </ul>
+                 </ul>
+              </div>
+            </div>
+        </div>
+        <div class="waiters-orders-container">   
+            <div class="left-section">     
+                <div class="orders">
+                <h2>Orders</h2>
+                        <table id="order-table">
+                           <!-- Table headers go here -->
+                         <tbody></tbody>
+                        </table>
+                </div>
+           </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="assign-waiter-container">
+            <h2>Assign Waiter</h2>
+            <select id="waiter-select"></select>
+            <button id="assignWaiterBtn">Assign Waiter</button>
+        </div>
+    </div>
+        <div class="main-content">
+            
+            <h2>Order Details</h2>
+            <div id="order-details"></div>
+        </div>
+    <script src="copydash.js"></script>
+</body>
+</html>

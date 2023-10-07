@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fccc53;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.orders {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li::before {
+    content: 'Order #';
+    font-weight: bold;
+}
+
+.order-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.order-table {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+.menu-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.menu-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.menu-button:hover {
+    background-color: #ff6347;
+}
+

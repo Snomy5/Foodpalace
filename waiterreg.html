@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="waiterreg.css">
+    <title>Admin - Register Waiter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin - Register Waiter</h1>
+        <form id="registrationForm" method="POST" action="waiterreg.php">
+            
+            <div class="input-group">
+                <label for="waiterId">Waiter ID:</label>
+                <input type="text" id="waiterId" name="waiterId" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit" name="registerButton" id="registerButton">Register Waiter</button>
+            <button type="submit" name="unregisterButton" id="unregisterButton">Unregister Waiter</button>
+        </form>
+    </div>
+</body>
+</html>
