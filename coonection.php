@@ -3,13 +3,13 @@
     $username="root";
     $password="";
     
-    $db_name="foodpalace";
+    $db_name="food";
     $conn = new mysqli($servername,$username,$password,$db_name,3306);
     if($conn->connect_error)
     {
         die("connection failed".$conn->connect_error);
     }
-    echo "connected successfull";
+    echo "";
 
 
 ?>

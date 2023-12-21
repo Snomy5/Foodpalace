@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #efd3cf;
+}
+
+.dashboard-heading {
+    color: #ff5733;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.waiters-orders-container {
+    flex: 1;
+    background-color: #dda9a97a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.waiters h2, .orders h2, .assign-waiter-container h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.waiter-list, #order-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.waiter-list li {
+    list-style: none;
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#order-table th, #order-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.assign-waiter-container {
+    flex: 0 0 30%;
+    background-color: #dda9a97a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(196, 101, 101, 0.771);
+}
+
+#waiter-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #6340404e;
+    border-radius: 5px;
+}
+
+#assignWaiterBtn {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#assignWaiterBtn:hover {
+    background-color: #ff6347;
+}
+
+
+
+.menu-button-container {
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.left{
+
+    float: left;
+}
+.right{
+    float: right;
+}
+/*
+.menu-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.menu-button:hover {
+    background-color: #ff6347;
+}
+*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 20px auto; /* 50px top margin, centered horizontally */
+}
+
+
+.left-section {
+    flex: 4;
+    padding: 1px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 1px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333; /* Label color */
+}
+
+#edit-menu-select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc; /* Border color */
+    border-radius: 3px;
+    background-color: #f9f9f9; /* Dropdown background color */
+    color: #333333; /* Dropdown text color */
+    cursor: pointer;
+}
+
+#edit-menu-select:hover {
+    border-color: #aaaaaa; /* Border color on hover */
+}
+
+/* Style for the selected option */
+#edit-menu-select option:checked {
+    background-color: #3498db; /* Selected option background color */
+    color: #ffffff; /* Selected option text color */
+}
+
+.menu-button {
+    display: inline-block;
+    background-color: #f95312;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #f85013;
+}
+
+.edit-menu-options {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#edit-menu-select {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Additional styles for better visibility and aesthetics */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+/* Style for the logout container */
+.logout-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the logout button */
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #d9534f; /* Bootstrap's danger color for illustration; you can change it */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the logout button */
+.logout-btn:hover {
+    background-color: #c9302c; /* Darker shade for hover effect */
+}

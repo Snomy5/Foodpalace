@@ -1,0 +1,141 @@
+/* menulist.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6f1a07;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.dashboard-heading {
+  text-align: center;
+  color: #f3e9e9;
+  padding: 20px;
+  background-color: #000000;
+  margin: 0;
+  width: 100%;
+}
+
+.item-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+  text-align: center;
+}
+
+.item-details {
+  flex: 1;
+  text-align:left;
+}
+
+.item-details h3 {
+  color: #333;
+  text-align: left;
+}
+
+.item-details p {
+  color: #666;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #f6f3f344;
+
+}
+
+form input[type="number"] {
+  width: 50px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #f2eded35;
+}
+
+form button {
+  background-color: #20ab37;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #02420c; /* Change the background color on hover */
+}
+
+.cart-container {
+  position: fixed;
+  top: 6px;
+  right: 7px;
+  background-color: #000508;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon-button
+{
+  background-color: #32cd46;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center; /* Align content vertically in the button */
+}
+
+.cart-icon-button:hover{
+  background-color: #02420c;
+}
+
+.cart-icon-button .item-count {
+  background-color: #c6e6cb;
+  color: #333;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.cart-container form {
+  margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.clear-cart-button {
+  background-color: #ec38387e;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center; /* Align content vertically in the button */
+}
+.clear-cart-button:hover {
+  background-color: #f90303fc;
+}
+
+/*popup message*/
+/* popup.css */

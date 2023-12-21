@@ -80,3 +80,26 @@ li::before {
     background-color: #ff6347;
 }
 
+
+  
+/* Style for the logout container */
+.logout-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the logout button */
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #d9534f; /* Bootstrap's danger color for illustration; you can change it */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the logout button */
+.logout-btn:hover {
+    background-color: #c9302c; /* Darker shade for hover effect */
+}

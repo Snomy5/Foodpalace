@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="addmenu.css">
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  
+    <form id="addMenuForm" method="post" action="menuadd.php">
+
+        <h1>Add Menu</h1>
+      <label for="itemid">Item ID:</label>
+      <input type="text" id="itemid" name="itemid" required>
+
+      <label for="itemname">Item Name:</label>
+      <input type="text" id="itemname" name="itemname" required>
+
+      <label for="itemdescription">Item Description:</label>
+      <textarea id="itemdescription" name="itemdescription" required></textarea>
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" required>
+
+      <label for="itemcategory">Category:</label>
+      <input type="text" id="itemcategory" name="itemcategory" required>
+
+
+      <input type="submit" id="addMenuBtn"></button>
+    </form>
+  
+</body>
+</html>

@@ -58,6 +58,8 @@
               <a href="waiterdash.html" class="back-button" id="backButton">Back</a>
           </div>
           </li>
+
+         
           
      
           <!-- <li class="nav-item">
@@ -70,71 +72,179 @@
 
   <br />
   
-  <section id="categorySection">
-    <div class="container">
-      <h1>
-        <span><b>CATEGORIES</b></span>
-      </h1>
-      <div class="row gutters-40">
-        <div class="col-lg-4 col-sm-4 col-4">
-          <div class="product-box-layout4 momos">
-            <div class="item-figure">
-              <img src="./images/momos.webp" alt="Category" width="100%" height="100%" />
-            </div>
-            <div class="item-content">
-              <h2 class="card-title">Momos</h2>
-            </div>
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <title>FOOD PALACE</title>
+      <link
+        rel="shortcut icon"
+        href="images/foodp.png"
+        type="image/x-icon"
+      />
+  
+      <!-- META -->
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <meta
+        name="Food Palace"
+        content="Author: Rishika Garg, Illustrator: Font Awesome and Flat Icon, Category: Food Application, Open Source: Yes"
+      />
+      <meta name="description" content="Food Ordering Website. The 'MOM   OMIA' has
+      been practiced to override the prevalent problems in manual systems. This
+      website is compatible to finalize and, in some cases, reduces the
+      difficulties faced by this existing system.">
+      <meta name="robots" content="all" />
+      <meta name="googlebot" content="all" />
+  
+      <!-- GOOGLE FONTS -->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet"
+      />
+  
+      <!-- CDN FONTS  -->
+      <link href="https://fonts.cdnfonts.com/css/elinga" rel="stylesheet" />
+  
+      <!-- FONTAWESOME -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+        crossorigin="anonymous"
+      />
+  
+      <!-- BOOTSTRAP -->
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+      />
+  
+      <!-- CSS -->
+      <link href="https://copyfonts.com/fonts/attari-salees.html" />
+      <link rel="stylesheet" href="./styles.css" />
+    </head>
+  
+    <body>
+      
+  
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <!-- CODE FOR NAVIGATION BAR -->
+          <ul class="px-0 mx-0">
+            <img
+              src="./images/cheff.png"
+              height="100px"
+              width="100px"
+              alt="navbar-logo"
+            />
+          </ul>
+          <a class="navbar-brand" href="index.html">Food Palace</a>
+          <!--         <a style ="font-size :class="navbar-brand" href="#Food Palace"></a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
           </div>
+          
         </div>
+      </nav>
+  
+      <a id="scrollToTop" class="btn"><i class="fas fa-caret-up"></i></a>
+  
+      
+  
+      <br />
+  
+      <section id="categorySection">
+        <div class="container">
+          <h1>
+            <span><b>CATEGORIES</b></span>
+            
 
-        <div class="col-lg-4 col-sm-4 col-4">
-          <div class="product-box-layout4 chinese">
-            <div class="item-figure">
-              <img src="./images/chinese.webp" alt="Category" width="100%" height="100%" />
-            </div>
-            <div class="item-content">
-              <h2 class="card-title">Chinese</h2>
-            </div>
-          </div>
-        </div>
+          </h1>
+          <div class="row gutters-40">
+            <div class="col-lg-4 col-sm-4 col-4">
+              <div class="product-box-layout4 momos">
+                
+                
 
-        <div class="col-lg-4 col-sm-4 col-4">
-          <div class="product-box-layout4 beverages">
-            <div class="item-figure">
-              <img src="./images/beverages-updated.webp" alt="Category" width="100%" height="100%" />
-            </div>
-            <div class="item-content">
-              <h2 class="card-title">Beverages</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- MENU STARTS HERE -->
-      <div class="menuDiv">
-        <!-- MODAL -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+                <div class="item-figure">
+                  <form action="menuret.php" method="GET">
+                    <input type="hidden" name="momo" value="menu1">
+                    <button type="submit">
+                        <img src="./images/momos.webp"
+                          alt="Category"
+                          width="100%"
+                          height="100%"
+                        />
+                    </button>
+                  </form>    
+                </div>
+                <div class="item-content">
+                  <h2 class="card-title">Momos</h2>
+                </div>
               </div>
-              <div class="modal-body">
-                <div class="container-fluid">
-                  <div class="row paymentInfoRow">
-                    <div class="col paymentInfo">
-                      <span class="checkIcon"><i class="fas fa-check-circle"></i></span>
-                      Select Menu
-                    </div>
-
-
-                  </div>
-
-                  <hr class="cartHr" />
+            </div>
+  
+            <div class="col-lg-4 col-sm-4 col-4">
+              <div class="product-box-layout4 chinese">
+                <div class="item-figure">
+                  <form action="menuret.php" method="GET">
+                    <input type="hidden" name="chinese" value="menu1">
+                    <button type="submit">
+                        <img
+                          src="./images/chinese.webp"
+                          alt="Category"
+                          width="100%"
+                          height="100%"
+                        />
+                    </button>
+                    </form>
+                      </div>
+                <div class="item-content">
+                  <h2 class="card-title">Chinese</h2>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-sm-4 col-4">
+              <div class="product-box-layout4 beverages">
+                <div class="item-figure">
+                  <form action="menuret.php" method="GET">
+                    <input type="hidden" name="beverage" value="menu1">
+                    <button type="submit">
+                  <img
+                    src="./images/beverages-updated.webp"
+                    alt="Category"
+                    width="100%"
+                    height="100%"
+                  />
+                  </button>
+                </div>
+                <div class="item-content">
+                  <h2 class="card-title">Beverages</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- MENU STARTS HERE -->
+                           <hr class="cartHr" />
 
                   <div class="cartContentDiv">
                     <h1>Your Cart is Empty</h1>
@@ -228,48 +338,3 @@
   <!-- CUSTOM JS -->
   <script src="./index.js"></script>
 </body>
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDwEgxrgaileQSnclPFOXFCghS4wJjBEQk",
-    authDomain: "food-ordering-app-3932e.firebaseapp.com",
-    projectId: "food-ordering-app-3932e",
-    storageBucket: "food-ordering-app-3932e.appspot.com",
-    messagingSenderId: "98716952915",
-    appId: "1:98716952915:web:891e4c4c8d4262199fd9a6",
-    measurementId: "G-SNZJVTEMJ7"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
-<!-- BOOTSTRAP JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-<!-- JQUERY CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- CUSTOM JS -->
-
-<script>
-  $(window).on("load", function () {
-    $("#loading").hide();
-  });
-</script>
-
-</html>

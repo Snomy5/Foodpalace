@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3997e;
+  }
+  
+  #addMenuForm {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Copperplate';
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f57d7d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #addMenuBtn {
+    padding: 10px 20px;
+    background-color: #060aeec7;
+    color: #eee9e9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #addMenuBtn:hover {
+    background-color: #05981dfc;
+    transition: background-color 0.5s ease-in-out;
+  }

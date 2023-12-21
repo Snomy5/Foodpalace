@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Sample orders data (you can fetch this data from an API)
     const orders = [
-        { id: 1, items: ["Burger", "Fries"], table: 1 },
-        { id: 2, items: ["Pizza", "Salad"], table: 2 },
-        { id: 3, items: ["Pasta", "Garlic Bread"], table: 3 }
+        { id: 1, items: [], table: 1 },
+        { id: 2, items: [], table: 2 },
+        { id: 3, items: [], table: 3 }
     ];
 
     // Display orders in the dashboard
